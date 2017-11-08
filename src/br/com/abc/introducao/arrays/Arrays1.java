@@ -5,7 +5,7 @@ public class Arrays1 {
 		// Criando Arrays de inteiros
 		int[] idades = new int[3];// Recomendado colocar as chaves antes da variável.
 		//O new somente é utilizado para criar arrays.
-		// Como preencher o Array de idades:
+		// Como preencher o Array de idades:wwww
 		
 		idades[0] = 20;
 		idades[1] = 15;
