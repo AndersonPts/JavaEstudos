@@ -7,10 +7,10 @@ public class ControleFluxo6 {
 		//Dado um valor de um carro, descubra em quantas parcelas ele pode ser parcelado.
 		// As parcelas não podem ser menores do que 1000
 				
-		double valorTotal = 30000;
+		double valorTotal = 38370;
 		for(int parcela = (int) valorTotal; parcela >= 1; parcela--){
 			double valorParcela = valorTotal / parcela;
-			if(valorParcela <= 1000){
+			if(valorParcela <= 5000){
 			continue;//Ignora códigos abaixo dentro da chave	
 			}
 			System.out.println("Parcela "+ parcela + " R$" + valorParcela);

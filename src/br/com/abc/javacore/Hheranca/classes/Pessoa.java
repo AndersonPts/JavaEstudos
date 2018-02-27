@@ -4,7 +4,7 @@ package br.com.abc.javacore.Hheranca.classes;
 // 1º -> Reaproveitamento de código
 // 2º -> Para utilizar o Polimorfismo
 // Modificador de Acesso protected -> Pode ser acessado de dentro do próprio pacote ou classes filhas
-// TODA CLASSE EXTENDS DE OBJECT , elefica implicito na construção da classe.
+// TODA CLASSE EXTENDS DE OBJECT , ele fica implicito na construção da classe.
 
 public class Pessoa {
 	protected String nome;

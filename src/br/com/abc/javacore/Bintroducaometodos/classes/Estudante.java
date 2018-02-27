@@ -62,7 +62,7 @@ public class Estudante {
 	public void soma() {
 
 		// double soma;
-		double media = 0;
+		double media = 0f;
 
 		// soma = notas[0]+notas[1]+notas[2];
 		for (double aux : notas) {
@@ -72,13 +72,17 @@ public class Estudante {
 
 		if (media < 4) {
 			this.aprovado = false;
-			System.out.println("Você está reprovado.\n");
+			System.out.println("Você está reprovado.");
+			System.out.println("Média: "+media+"\n");
 		} else if (media > 4 && media < 6) {
-			System.out.println("Prova Final.\n");
+			System.out.println("Prova Final.");
+			System.out.println("Média: "+media+"\n");
 		} else if (media >= 6) {
 			this.aprovado = true;
-			System.out.println("Aprovado!\n");
+			System.out.println("Aprovado!");
+			System.out.println("Média: "+media+"\n");
 		}
+		
 	}
 
 }

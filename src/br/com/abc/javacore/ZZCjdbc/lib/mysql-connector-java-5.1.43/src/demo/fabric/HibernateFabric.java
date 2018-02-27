@@ -19,7 +19,7 @@
   program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth
   Floor, Boston, MA 02110-1301  USA
 
- */
+ 
 
 package demo.fabric;
 
@@ -36,7 +36,7 @@ import com.mysql.fabric.hibernate.FabricMultiTenantConnectionProvider;
 
 /**
  * Example using Hibernate 4 Multi-tenancy in DATABASE mode with Fabric.
- */
+ 
 public class HibernateFabric {
     public static void main(String args[]) throws Exception {
 
@@ -68,7 +68,7 @@ public class HibernateFabric {
         Thread.sleep(2000);
 
         // Using Hibernate
-        SessionFactory sf = createSessionFactory("http://" + hostname + ":" + port, user, password, fabricUsername, fabricPassword);
+      //  SessionFactory sf = createSessionFactory("http://" + hostname + ":" + port, user, password, fabricUsername, fabricPassword);
 
         // add some employees
         for (int i = 1; i < 11; ++i) {
@@ -77,7 +77,7 @@ public class HibernateFabric {
             if ((j % 2) == 0) {
                 j += 10000;
             }
-
+/*
             Session session = sf.withOptions().tenantIdentifier("" + j) // choose a db server
                     .openSession();
 
@@ -101,7 +101,7 @@ public class HibernateFabric {
 
     /**
      * Configuration of session factory with Fabric integration.
-     */
+     
     public static SessionFactory createSessionFactory(String fabricUrl, String username, String password, String fabricUser, String fabricPassword)
             throws Exception {
         // creating this here allows passing needed params to the constructor
@@ -116,4 +116,4 @@ public class HibernateFabric {
         config.addResource("com/mysql/fabric/demo/employee.hbm.xml");
         return config.buildSessionFactory(srb.buildServiceRegistry());
     }
-}
+}*/

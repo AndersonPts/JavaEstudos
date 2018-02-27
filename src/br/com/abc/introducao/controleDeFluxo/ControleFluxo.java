@@ -6,7 +6,7 @@ public class ControleFluxo {
 		// idade >= 15 && idade <= 18 juvenil
 		// idade >=18 adulto
 		
-		int idade = 20;
+		int idade = 2;
 		float salario = 2000;
 		//boolean c = false;
 		String categoria;// Precisa ser inicializada

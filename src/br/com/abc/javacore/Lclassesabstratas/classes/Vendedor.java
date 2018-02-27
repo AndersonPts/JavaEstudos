@@ -20,7 +20,7 @@ public class Vendedor extends Funcionario {
 	public void setTotalVendas(double totalVendas) {
 		this.totalVendas = totalVendas;
 	}
-	
+	@Override
 	public void calculaSalario(){
 		this.salario = salario + (totalVendas * 0.05);
 	}

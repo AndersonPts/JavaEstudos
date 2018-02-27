@@ -29,7 +29,7 @@ public class ControleFluxo3 {
 			System.out.println("Sábado");
 			break;
 		}
-		char sexo = 'M';// char aceita valores numericos de até 2 byts.
+		char sexo = 'F';// char aceita valores numericos de até 2 byts.
 		// No char usa '' e na String usa "".
 		switch (sexo) {
 		case 'M':
