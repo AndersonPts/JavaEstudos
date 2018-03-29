@@ -11,7 +11,7 @@ public class HerancaTest {
 		
 		//p.setNome("Gina");
 		p.setCpf("111.222.333.444-55");
-		end.setRua("Dom Pedro");
+		end.setRua("Dom Pedro, 45");
 		end.setBairro("Centro");
 		p.setEndereco(end);
 		p.imprime();

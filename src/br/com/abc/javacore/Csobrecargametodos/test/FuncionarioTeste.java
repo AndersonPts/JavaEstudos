@@ -5,9 +5,9 @@ import br.com.abc.javacore.Csobrecargametodos.classes.Funcionario;
 public class FuncionarioTeste {
 	public static void main(String[] args) {
 				
-		Funcionario funcionario = new Funcionario("Anderson Alves", "999.888.777.666-55", 3450, "122212-9");
+		Funcionario funcionario = new Funcionario("Anderson Alves", "998.777.666-55", 3450, "122212-9");
 		
-		Funcionario funcionario2 = new Funcionario();
+		Funcionario funcionario2 = new Funcionario("Anderson Alves", "999.888.777.666-55", 3450, "122212-9");
 		funcionario2.imprime();
 		
 		funcionario.init("Anderson Alves", "999.888.777.666-55", 3450, "122212-9");

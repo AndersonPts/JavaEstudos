@@ -2,7 +2,7 @@ package br.com.abc.javacore.Kenum.classes;
 
 public class Cliente {
 	public enum TipoPagamento {
-		AVISTA, APRAZO
+		AVISTA, APRAZO //O TEXTO TEM QUE SER COM CAIXA ALTA
 	}
 
 	private String nome;

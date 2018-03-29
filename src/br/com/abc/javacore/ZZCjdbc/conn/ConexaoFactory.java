@@ -14,9 +14,9 @@ public class ConexaoFactory {
 	
 	public static Connection getConexao(){
 					//Drive BD      Local    Porta Banco
-		String url = "jdbc:mysql://localhost:3306/agencia?useSSL=false";// No final adicione ?useSSL=false para evitar exceções.
+		String url = "jdbc:mysql://localhost:3306/biblioteca?useSSL=false";// No final adicione ?useSSL=false para evitar exceções.
 		String user = "root";
-		String password = "192837456M@";
+		String password = "root";
 		
 		
 		try {
